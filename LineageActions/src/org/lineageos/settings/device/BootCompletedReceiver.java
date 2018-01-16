@@ -59,8 +59,8 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     }
 
     protected static void enableNavBar(boolean enable, Context context) {
-       // LineageSettings.Global.putInt(context.getContentResolver(),
-            //    LineageSettings.Global.DEV_FORCE_SHOW_NAVBAR, enable ? 1 : 0);
+        LineageSettings.Global.putInt(context.getContentResolver(),
+                LineageSettings.Global.DEV_FORCE_SHOW_NAVBAR, enable ? 1 : 0);
     }
 
     private ServiceConnection serviceConnection = new ServiceConnection() {
