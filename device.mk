@@ -234,6 +234,10 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service \
     lights.msm8953
 
+# Display Calibration
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@1.0-service-qdcm
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
