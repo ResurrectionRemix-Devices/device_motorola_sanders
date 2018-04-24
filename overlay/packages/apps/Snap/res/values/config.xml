@@ -16,7 +16,6 @@
 -->
 
 <resources>
-
     <!-- Opens back camera using openLegacy() -->
     <bool name="back_camera_open_legacy">false</bool>
 
@@ -35,5 +34,4 @@
 
     <!-- Enable support for camera api v2 -->
     <bool name="support_camera_api_v2">true</bool>
-
 </resources>
