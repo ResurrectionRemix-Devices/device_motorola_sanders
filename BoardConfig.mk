@@ -213,6 +213,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
+# RIL
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
@@ -244,3 +247,6 @@ WIFI_DRIVER_FW_PATH_AP           := "ap"
 WIFI_DRIVER_FW_PATH_STA          := "sta"
 WIFI_DRIVER_FW_PATH_P2P          := "p2p"
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
+
+# Security patch level
+VENDOR_SECURITY_PATCH := 2018-11-5
