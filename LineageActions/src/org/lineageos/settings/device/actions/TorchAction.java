@@ -31,8 +31,6 @@ public class TorchAction implements SensorAction {
 
     private static final int TURN_SCREEN_ON_WAKE_LOCK_MS = 500;
 
-    private static final int TURN_SCREEN_ON_WAKE_LOCK_MS = 500;
-
     private CameraManager mCameraManager;
     private final Vibrator mVibrator;
     private String mRearCameraId;
